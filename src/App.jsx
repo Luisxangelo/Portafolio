@@ -10,17 +10,13 @@ import Projects from './components/Projects'
 function App() {
   return (
     <main className='bg-black h-full font-principal-font'>
-
+      
     <Header/>
-    <Routes>
-       <Route path='/' element={<Home/>}/>
-
-       <Route path='/projects' element= {<Projects/>}/>
+    <Home/>
+    <Projects/>
+    <AboutMe/>
+    <ContactMe/>
     
-       <Route path='about' element= {<AboutMe/>}/>
-        
-       <Route path='contact' element={<ContactMe/>}/>
-    </Routes>
     
 
     </main>
