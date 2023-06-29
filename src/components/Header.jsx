@@ -33,7 +33,7 @@ const Header = () => {
             </ul>
             </section>
            
-           <div className="max-[630px]:hidden text-white text-center flex p-8  place-content-center gap-16 text-base">
+           <div className="max-[630px]:hidden text-white text-center flex p-8  place-content-center gap-16 text-base relative z-10">
                 <a href="#/"><h3>Home</h3></a>
                 <a href="#projects"><h3>Projects</h3></a>
                 <a href="#about"><h3>About Me</h3></a>
