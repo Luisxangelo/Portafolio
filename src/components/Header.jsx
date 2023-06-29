@@ -24,7 +24,7 @@ const Header = () => {
                 <button onClick={handleOnChange}>  <i className='bx bx-menu text-white text-3xl max-[630px]:text-lg'></i>
                 </button>
                 </div>
-            <section className={` ${isShowMenu? "bg-black/50 rounded-2xl":"hidden"} relative z-10 w-[200px]`}>
+            <section className={` ${isShowMenu? "bg-black/50 rounded-2xl":"hidden"} relative z-30 w-[200px]`}>
             <ul className={`text-white gap-2 p-2 min-[630px]:hidden  ${isShowMenu? "bg-black/50 rounded-2xl -left-72 ":"hidden"}`}>
             <a href="#/"><li className="p-2 hover:bg-slate-500/50 rounded-md">Home</li></a>
             <a href="#projects"><li className="p-2 hover:bg-slate-500/50 rounded-md">Projects</li></a>
