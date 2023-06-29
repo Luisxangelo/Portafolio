@@ -1,7 +1,7 @@
 const ContactMe = () => {
 
   return (
-    <section className="mt-96 text-white p-6 pb-60 xs:mx-[300px] xxs:mx-52 xs:mt-[500px]">
+    <section id="contact" className="mt-96 text-white p-6 pb-60 xs:mx-[300px] xxs:mx-52 xs:mt-[500px] relative z-10 ">
         <div className="bg-gray-700/40 rounded-3xl p-4 py-36 xs:py-24">
             <h1 className="font-bold text-center text-4xl p-2">Contact Me!</h1>
             <p className="py-8 text-center">You can contact me through all my social networks!</p>

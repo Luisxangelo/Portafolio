@@ -1,5 +1,4 @@
-import { Route, Routes } from 'react-router-dom'
-import AboutMe from './AboutMe'
+import AboutMe from './components/AboutMe'
 import './App.css'
 import ContactMe from './components/ContactMe'
 import Header from './components/Header'
@@ -11,11 +10,11 @@ function App() {
   return (
     <main className='bg-black h-full font-principal-font'>
       
-    <Header/>
-    <Home/>
-    <Projects/>
-    <AboutMe/>
-    <ContactMe/>
+    <Header />
+    <Home id="/"/>
+    <Projects id="projects"/>
+    <AboutMe id="about"/>
+    <ContactMe id="contact"/>
     
     
 

@@ -1,7 +1,7 @@
 const Projects = () => {
   return (
     <section> 
-            <section className="relative" >
+            <section id="projects" className="relative" >
                 <div className="absolute -top-72 right-0 ">
                     <img src="/Ellipse7.png" alt="" />
                 </div>
@@ -9,10 +9,10 @@ const Projects = () => {
 
             <section className="text-left">
                 <div className="px-4">
-                     <h2 className=" text-[#9BA4ED] font-semibold text-4xl xs:absolute xs:-bottom-[700px] xs:right-36 xs:w-[400px] xs:pl-12">Last landing <span className=" text-white  text-left text-4xl font-bolds">and website projects</span> </h2>
+                     <h2 className=" text-[#9BA4ED] font-semibold text-4xl xs:absolute xs:-bottom-[500px] xs:right-36 xs:w-[400px] xs:pl-12">Last landing <span className=" text-white  text-left text-4xl font-bolds">and website projects</span> </h2>
                 </div>
                 <div className="  py-12 px-4">
-                    <p className="text-white text-sm pb-4 xs:absolute xs:w-[400px] xs:-bottom-[780px] xs:right-32 xs:pl-10 xs:text-xs">I’m probably the most passionate developer you will ever get to work with. If you have a great project that needs some amazing skills, I’m your guy.</p>
+                    <p className="text-white text-sm pb-4 xs:absolute xs:w-[400px] xs:-bottom-[600px] xs:right-32 xs:pl-10 xs:text-sm">Here I want to present one of the many projects that we are developing giving the best application and user experience, you can try each one of them since they are working 100%</p>
                 </div>
             </section>
             

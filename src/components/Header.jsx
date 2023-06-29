@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux"
 import { changeIsMenu } from "../store/slices/menuslice";
-import store from "../store";
+
 
 const Header = () => {
 
@@ -15,29 +15,29 @@ const Header = () => {
 
     <section className="relative">
         
-        <div className="absolute top-8 left-16 max-[321px]:left-8  min-[321px]:grid">
+        <div className="absolute z-0 top-8 left-16 max-[321px]:left-8  min-[321px]:grid">
             <img src="/Logo.png" alt="" />
         </div>
        
         <section className="relative">
-            <div className="absolute top-8 right-8 min-[630px]:hidden">
+            <div className="absolute z-10 top-8 right-8 min-[630px]:hidden">
                 <button onClick={handleOnChange}>  <i className='bx bx-menu text-white text-3xl max-[630px]:text-lg'></i>
                 </button>
                 </div>
-            <section className={` ${isShowMenu? "bg-black/50 rounded-2xl":"hidden"} w-[10px]`}>
-            <ul className={`text-white gap-2 p-2 min-[630px]:hidden ${isShowMenu? "bg-black/50 rounded-2xl -left-72":"hidden"}`}>
-                <li className="p-2 hover:bg-slate-500/50 rounded-md">Home</li>
-                <li className="p-2 hover:bg-slate-500/50 rounded-md">Projects</li>
-                <li className="p-2 hover:bg-slate-500/50 rounded-md">About Me</li>
-                <li className="p-2 hover:bg-slate-500/50 rounded-md">Contac Me</li>
+            <section className={` ${isShowMenu? "bg-black/50 rounded-2xl":"hidden"} relative z-10 w-[200px]`}>
+            <ul className={`text-white gap-2 p-2 min-[630px]:hidden  ${isShowMenu? "bg-black/50 rounded-2xl -left-72 ":"hidden"}`}>
+            <a href="#/"><li className="p-2 hover:bg-slate-500/50 rounded-md">Home</li></a>
+            <a href="#projects"><li className="p-2 hover:bg-slate-500/50 rounded-md">Projects</li></a>
+            <a href="#about"><li className="p-2 hover:bg-slate-500/50 rounded-md">About Me</li></a>
+            <a href="#contact">   <li className="p-2 hover:bg-slate-500/50 rounded-md">Contac Me</li></a>
             </ul>
             </section>
            
            <div className="max-[630px]:hidden text-white text-center flex p-8  place-content-center gap-16 text-base">
-                <h3>Home</h3>
-                <h3>Projects</h3>
-                <h3>About Me</h3>
-                <h3>Contac Me</h3>
+                <a href="#/"><h3>Home</h3></a>
+                <a href="#projects"><h3>Projects</h3></a>
+                <a href="#about"><h3>About Me</h3></a>
+                <a href="#contact"><h3>Contac Me</h3></a>
             </div>
         </section>
         <section className="">
