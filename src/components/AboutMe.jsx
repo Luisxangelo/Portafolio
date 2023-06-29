@@ -9,10 +9,10 @@ const AboutMe = () => {
 
             <section className="text-left">
                 <div className="px-4">
-                     <h2 className=" text-[#9BA4ED] font-semibold text-4xl xs:absolute xs:-bottom-[950px] xs:left-36 xs:w-[400px] xs:pl-12">Build <span className=" text-white  text-left text-4xl font-bolds">whole new world</span> </h2>
+                     <h2 className=" text-[#9BA4ED] font-semibold text-4xl xs:absolute xs:-bottom-[1150px] xs:left-36 xs:w-[400px] xs:pl-12">Build <span className=" text-white  text-left text-4xl font-bolds">whole new world</span> </h2>
                 </div>
                 <div className="  py-12 px-4">
-                    <p className="text-white text-sm pb-4 xs:absolute xs:-bottom-[1050px] xs:left-40 xs:w-[400px] xs:pl-10 xs:text-sm">
+                    <p className="text-white text-sm pb-4 xs:absolute xs:-bottom-[1250px] xs:left-40 xs:w-[400px] xs:pl-10 xs:text-sm">
 Learn more about me in my social networks which are in the contact me section, we can develop many more projects, we are very confident in our products, join us.</p>
                 </div>
             </section>
